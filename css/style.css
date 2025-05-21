@@ -1375,3 +1375,59 @@ section{
 
 }
 
+.Quizz{
+ width: 70px;
+ padding: 5px;
+ display: block; 
+margin: 5px;
+color: white;
+background-color: red;
+border-radius: 15% ;
+
+}
+
+.Quizz:hover{
+ 
+   color: red;
+  background-color: white;
+  border-radius: 15% ;
+  
+  }
+  
+.Teaching{
+   width: 100px;
+   padding: 5px;
+display: block; 
+  margin: 5px;
+  color: white;
+  background-color: red;
+  border-radius: 15% ;
+
+  }
+
+  .Teaching:hover{
+   color: red;
+  background-color: white;
+  border-radius: 15% ;
+   }
+  
+.document{
+display: flex
+}
+
+.Textbook{
+   width: 70px;
+   padding: 5px;
+display: block; 
+  margin: 5px;
+  color: white;
+  background-color: red;
+  border-radius: 15% ;
+  }
+
+  .Textbook:hover{
+   color: red;
+  background-color: white;
+  border-radius: 15% ;
+   }
+  
