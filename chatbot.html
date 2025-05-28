@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Chatbot</title>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet" />
+  <link rel="stylesheet" href="css/chatbot.css" />
+</head>
+<body>
+  <div class="chatbot-popup">
+    <!-- Header -->
+    <div class="chat-header">
+      <h2 class="logo-text">AI Chatbot</h2>
+      <button id="close-chatbot" class="material-symbols-rounded">close</button>
+    </div>
+
+    <!-- Body -->
+    <div class="chat-body">
+      <div class="message bot-message">
+        <div class="avatar">🤖</div>
+        <div class="message-text">Hello, how can I assist you today?</div>
+      </div>
+
+      <div class="message user-message">
+        <div class="message-text">Hi! I need help.</div>
+      </div>
+
+      <div class="message bot-thinking">
+        <div class="thinking-indicator">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="chat-footer">
+      <form class="chat-form">
+        <textarea id=" message-input" class="message-input" placeholder="Type your message..."></textarea>
+        <div class="chat-controls">
+          <button type="button" class="material-symbols-rounded">mood</button>
+          <button type="button" class="material-symbols-rounded">attach_file</button>
+          <button type="submit" class="material-symbols-rounded">send</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="js/chatbot.js"> </script>
+</body>
+</html>

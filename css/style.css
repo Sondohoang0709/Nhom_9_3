@@ -1431,3 +1431,124 @@ display: block;
   border-radius: 15% ;
    }
   
+ .container_student{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 30px;
+   margin: 40px auto;
+   border-radius: 25px;
+
+ }
+
+   .basic_information {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      padding: 20px;
+      background-color: #f9f9f9; /* nền nhẹ nhàng */
+      border-radius: 10px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    
+    img {
+      height: 200px;
+    }
+    
+    .list_infor {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    
+    .infor {
+      padding: 15px 25px;
+      background-color: #e60000; /* đỏ nhẹ hơn */
+      border-radius: 25px;
+      color: white;
+      font-size: 16px;
+      font-weight: 500;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    
+
+    .l_courses{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       gap: 30px;
+       padding: 20px;
+       background-color: #f9f9f9;
+       border-radius: 10px;
+       max-width: 600px;
+       margin: 20px auto;
+
+    }
+    .l_infor{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 15px;
+      padding: 20px;
+      background-color: #e60000;
+      border-radius: 25px;
+      color: white;
+      font-size: 16px;
+      font-weight: 500;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 200px;
+      min-height: 120px;
+
+    }
+
+
+   .img_html { height: 100px; }
+   .img_css{ height: 100px;     }
+
+.img_html:hover,
+.img_css:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.process {
+ display: flex  
+}
+
+.img_pr{
+   height: 200px;
+}
+
+.name{
+display: block;
+height: 50px;
+max-width: 400px;
+background-color: red;
+color: white;
+margin: 0 auto;
+border-radius: 10px;
+width: 200px;
+padding: 10px;
+justify-content: center;
+}
+
+.back{
+   display: block;
+   background-color: red;
+ height: 50px;
+ width: 100px;
+ color: white;
+ justify-content: center ;
+ border-radius: 25px;
+ font-size: 20px;
+padding: 15px;
+margin-left: 100px;
+}
+
+.back:hover{
+cursor: pointer;
+color: red;
+background-color: white;
+
+}
