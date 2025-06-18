@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Cards</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      margin: 0;
+      padding: 40px;
+    }
+
+    .container-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .student-box {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      max-width: 250px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .student-box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+
+    .student-box img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .student-box h4 {
+      margin: 15px 0 5px;
+      font-size: 20px;
+      color: #333;
+    }
+
+    .student-box p {
+      margin: 4px 0;
+      font-size: 14px;
+      color: #666;
+    }
+
+    .student-box .title {
+      font-style: italic;
+      color: #777;
+    }
+
+    .student-box p:last-of-type {
+    margin-bottom: 15px;}
+
+    .student-box a {
+      margin-top: 15px;
+      border: none;
+      background-color: red;
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 8px;
+      text-decoration: none; 
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .student-box a:hover {
+      background-color: darkblue;
+     
+    }
+
+    .back_button {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  text-align: center;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.back_button:hover {
+  background-color: darkred;
+  transform: scale(1.05);
+}
+
+  </style>
+</head>
+<body>
+    <a class="back_button" href="teacher_admin.html"> Back     </a>
+  <div class="container-list">
+    <div class="student-box">
+      <img src="images/captain-boy.jpg" alt="avatar">
+      <h4><b>Captain Boy</b></h4>
+      <p class="title">Singer and Rapper</p>
+      <p>Phone: 12345678</p>
+      <p>Email: sondeptrai@gmail.com</p>
+      <a href="student_profile.html">View</a>
+    </div>
+
+    <div class="student-box">
+      <img src="images/Donald Trump.jpg" alt="avatar">
+      <h4><b>Donald Trump</b></h4>
+      <p class="title">President</p>
+      <p>Phone: 12345678</p>
+      <p>Email: sondeptrai@gmail.com</p>
+      <a href="trump-profile.html">View</a>
+    </div>
+
+    <div class="student-box">
+      <img src="images/hieuthuhai-1.jpg" alt="avatar">
+      <h4><b>Hieu So Hai</b></h4>
+      <p class="title">Singer and Rapper</p>
+      <p>Phone: 12345678</p>
+      <p>Email: sondeptrai@gmail.com</p>
+      <a href="hieuthu2.html">View</a>
+    </div>
+
+    
+        <div class="student-box">
+          <img src="images/hurrykng.jpg" alt="avatar">
+          <h4><b>Hurrykng</b></h4>
+          <p class="title">Singer</p>
+          <p>Phone: 12345678</p>
+          <p>Email: sondeptrai@gmail.com</p>
+          <a href="hurrykng.html">View</a>
+        </div>
+    
+        <div class="student-box">
+          <img src="images/Isaac.jpg" alt="avatar">
+          <h4><b>Isaac</b></h4>
+          <p class="title">Singer</p>
+          <p>Phone: 12345678</p>
+          <p>Email: sondeptrai@gmail.com</p>
+          <a href="isaac.html">View</a>
+        </div>
+    
+        <div class="student-box">
+          <img src="images/jsol.png" alt="avatar">
+          <h4><b>Jsol</b></h4>
+          <p class="title">Singer</p>
+          <p>Phone: 12345678</p>
+          <p>Email: sondeptrai@gmail.com</p>
+          <a>View</a>
+        </div>
+
+        <div class="student-box">
+            <img src="images/j97.jpg" alt="avatar">
+            <h4><b>Jack</b></h4>
+            <p class="title">Singer and Người Bố tuyệt vời</p>
+            <p>Phone: 12345678</p>
+            <p>Email: sondeptrai@gmail.com</p>
+            <a>View</a>
+          </div>
+      
+          <div class="student-box">
+            <img src="images/negav.jpg" alt="avatar">
+            <h4><b>Negav</b></h4>
+            <p class="title">Rapper and người bỏ học</p>
+            <p>Phone: 12345678</p>
+            <p>Email: sondeptrai@gmail.com</p>
+            <a>View</a>
+          </div>
+      
+          <div class="student-box">
+            <img src="images/quang_hung.jpg" alt="avatar">
+            <h4><b>Quang Hùng MasterD    </b></h4>
+            <p class="title">Singer and Tổng tài</p>
+            <p>Phone: 12345678</p>
+            <p>Email: sondeptrai@gmail.com</p>
+            <a>View</a>
+          </div>
+
+          <div class="student-box">
+            <img src="images/rhyder.jpg" alt="avatar">
+            <h4><b>Rhyder</b></h4>
+            <p class="title">Singer, rapper and người yêu captain</p>
+            <p>Phone: 12345678</p>
+            <p>Email: sondeptrai@gmail.com</p>
+            <a>View</a>
+          </div>
+      
+          <div class="student-box">
+            <img src="images/Son_Tung.jpg" alt="avatar">
+            <h4><b>Son Tung MTP</b></h4>
+            <p class="title">Singer and sếp</p>
+            <p>Phone: 12345678</p>
+            <p>Email: sondeptrai@gmail.com</p>
+            <a>View</a>
+          </div>
+          <div class="student-box">
+            <img src="images/Wean_le.jpg" alt="avatar">
+            <h4><b>Wean Lê</b></h4>
+            <p class="title">Singer, rapper and bạn thân Domic</p>
+            <p>Phone: 12345678</p>
+            <p>Email: sondeptrai@gmail.com</p>
+            <a>View</a>
+          </div>
+      
+          <div class="student-box">
+            <img src="images/Domic.jpg" alt="avatar">
+            <h4><b>Dương Domic</b></h4>
+            <p class="title">Singer and chàng khờ Hải Dương</p>
+            <p>Phone: 12345678</p>
+            <p>Email: sondeptrai@gmail.com</p>
+            <a>View</a>
+          </div>
+          <div class="student-box">
+            <img src="images/Phapkieu.jpg" alt="avatar">
+            <h4><b>Pháp Kiều</b></h4>
+            <p class="title">Rapper and chàng trai dịu dàng</p>
+            <p>Phone: 12345678</p>
+            <p>Email: sondeptrai@gmail.com</p>
+            <a>View</a>
+          </div>
+      
+          <div class="student-box">
+            <img src="images/atus.jpg" alt="avatar">
+            <h4><b>Anh Tu Atus</b></h4>
+            <p class="title">Singer and soái ca</p>
+            <p>Phone: 12345678</p>
+            <p>Email: sondeptrai@gmail.com</p>
+            <a>View</a>
+          </div>
+  </div>
+</body>
+</html>
